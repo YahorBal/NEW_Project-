@@ -16,7 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from F_App.views import hello_view, create_car, demo
+from F_App.views import hello_view, create_car, demo,  UserView
+
 
 
 urlpatterns = [
@@ -24,4 +25,5 @@ urlpatterns = [
     path('', hello_view),
     path('new_car/', create_car),
     path('demo/', demo),
+    path('api/user/', UserView.as_view(), name='api_user', )
 ]

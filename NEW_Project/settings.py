@@ -83,7 +83,7 @@ DATABASES = {
         'PASSWORD': 'Bers9816',
         'HOST': 'YahorBal.mysql.pythonanywhere-services.com',
         'PORT': '3306'
-  }
+  },
 }
 
 
