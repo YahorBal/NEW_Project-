@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'NEW_Project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'neondb',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'YahorBal$default',
         'USER': 'YahorBal',
-        'PASSWORD': 'KX0PpcBo8dsy',
-        'HOST': 'ep-polished-flower-264825-pooler.us-east-2.aws.neon.tech',
-        'PORT': '5432'
+        'PASSWORD': 'Bers9816',
+        'HOST': 'YahorBal.mysql.pythonanywhere-services.com',
+        'PORT': '3306'
   }
 }
 
